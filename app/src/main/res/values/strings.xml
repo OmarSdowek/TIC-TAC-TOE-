@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Tic TacToe</string>
+    <string name="play">play</string>
+    <string name="X_is_winner">x is winner</string>
+    <string name="X_tap_tp_play">x tap to play</string>
+    <string name="O_tap_to_Play">O tap to play</string>
+    <string name="The_match_is_draw">The match is draw</string>
+    <string name="With_friend">with friend</string>
+    <string name="With_computer">With computer</string>
+    <string name="O_is_winner">O is winner</string>
+    <string name="Play_1">Play 1</string>
+    <string name="Play_2">Play 2</string>
+    <string name="Restart">Restart</string>
+    <string name="Computer">computer</string>
+    <string name="Compuer_is_win">Computer is win</string>
+
+
+</resources>

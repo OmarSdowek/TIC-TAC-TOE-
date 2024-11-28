@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tic TacToe</string>
+    <string name="play">اللعب</string>
+    <string name="Restart">اعاده</string>
+    <string name="X_is_winner">X  كسب</string>
+    <string name="X_tap_tp_play">X اضغط لتلعب</string>
+    <string name="O_tap_to_Play">o اضغط لتلعب</string>
+    <string name="The_match_is_draw">تعادل</string>
+    <string name="With_friend">مع صديق</string>
+    <string name="With_computer">مع الكمبيونر</string>
+    <string name="O_is_winner">O كسب</string>
+    <string name="Play_1">الاعب 1</string>
+    <string name="Play_2">"الاعب   2 "</string>
+    <string name="Computer">كمبيوتر</string>
+    <string name="Compuer_is_win">الكمبيوتر يفوز</string>
+</resources>

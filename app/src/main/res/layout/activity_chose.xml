@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chose"
+    android:background="#FEC007"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="76dp"
+        android:src="@drawable/g"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/computer"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:backgroundTint="#50206C"
+        android:text="@string/With_computer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/friend"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#50206C"
+        android:text="@string/With_friend"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/computer" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="124dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#730FAE"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Icon for Sound -->
+        <ImageView
+            android:id="@+id/sound"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/hh"
+            tools:ignore="MissingConstraints" />
+
+        <!-- Icon for Language -->
+        <ImageView
+            android:id="@+id/la"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/la"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toStartOf="@id/sound"
+            android:layout_toLeftOf="@id/sound"
+            android:src="@drawable/aa"
+            tools:ignore="NotSibling" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tic TacToe</string>
+    <string name="play">玩</string>
+    <string name="X_is_winner">" X 获胜"</string>
+    <string name="X_tap_tp_play">点击 X 开始</string>
+    <string name="O_tap_to_Play">点击 O 开始</string>
+    <string name="The_match_is_draw">比赛平局</string>
+    <string name="With_friend">与朋友对战</string>
+    <string name="With_computer">" 与电脑对战 "</string>
+    <string name="O_is_winner">" O 获胜"</string>
+    <string name="Play_1">玩家 1</string>
+    <string name="Play_2">玩家 2</string>
+    <string name="Restart">重新开始</string>
+    <string name="Computer">电脑</string>
+    <string name="Compuer_is_win">" 电脑获胜"</string>
+</resources>

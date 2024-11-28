@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tic TacToe</string>
+    <string name="play">Играть</string>
+    <string name="X_is_winner">X победил</string>
+    <string name="X_tap_tp_play">Нажмите X, чтобы играть</string>
+    <string name="O_tap_to_Play">"Нажмите O, чтобы играть "</string>
+    <string name="The_match_is_draw">Ничья</string>
+    <string name="With_friend">С другом</string>
+    <string name="With_computer">Против компьютера</string>
+    <string name="O_is_winner">O победил</string>
+    <string name="Play_1">Игрок 1</string>
+    <string name="Play_2">Игрок 2</string>
+    <string name="Restart">" Перезапустить"</string>
+    <string name="Computer">Компьютер</string>
+    <string name="Compuer_is_win">Компьютер победил</string>
+</resources>
